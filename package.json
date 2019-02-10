@@ -121,5 +121,9 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "engines": {
+    "node": "8.9.3",
+    "npm": "6.4.1,"
   }
 }

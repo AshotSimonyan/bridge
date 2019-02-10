@@ -1,0 +1,35 @@
+.btn {
+    line-height: 40px;
+    height: 40px;
+    padding: 0 40px;
+    font-size: $base-font-size;
+    font-family: 'ArialArmST';
+    font-weight: 700;
+    cursor: pointer;
+    transition: all $trns-duration;
+
+    &.primary {
+        background-color: $color-primary;
+        color: #fff;
+        border: 2px solid transparent;
+        font-size: 16px;
+        border-radius: 5px;
+
+        &:hover {
+            background-color: darken($color-primary, 6);
+        }
+    }
+
+    &.secondary {
+        background-color: transparent;
+        color: $color-primary;
+        border: 2px solid $color-primary;
+        border-radius: 7px;
+
+
+        &:hover {
+            box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
+        }
+
+    }
+}
